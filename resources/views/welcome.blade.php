@@ -49,13 +49,17 @@
 
 
 @section('footer')
-<div class="jumbotron"><!-- start jumbo -->
+<div class="jumbotron" id="myjumbo"><!-- start jumbo -->
+<div class="container">
   <p class="pull-right"><a href="#">Do góry</a></p>  
-  <p>&copy; 2016 Certus Pożyczki. Wszelkie prawa zastrzeżone.
+  <p>&copy; 2016 Certus Pożyczki. <b>Wszelkie prawa zastrzeżone.</b>
   <h2></h2>
-  <p>
+  <p class="just">
     Szybka pożyczka gotówkowa, bez sprawdzania, pożyczki pod zastaw. Najlepsze pożyczki Braniewo, Bartoszyce, Kętrzyn, Gronowo, Młoteczno, Bemowizna , Frombork, Stępień, Pierzchały, Płoskinia, Chruściel, Lipowina, Milejewo, Pogrodzie, Kadyny, Suchacz, Tolkmicko, Stegna, Kąty, Rybackie, Krynica Morska, Elbląg, Pasłęk, Gronowo Górne, Górowo Iławeckie, Kamińsk, Lelkowo, Głębock, Bezledy, Pieniężno, Orneta, Zagaje, Wyszkowo, Lidzbark Warmiński, Korsze, Reszel, Bisztynek.
   </p>
+
+</div>
+  
 
 
 

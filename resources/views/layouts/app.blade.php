@@ -48,12 +48,12 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-left" href="#">
-              	<img height="50px" src="pic/logo.png">
+              	<img src="pic/logo.png">
               </a>
               
             </div>
             <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
+              <ul class="nav navbar-nav myMenu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">O firmie</a></li>
                 <li><a href="#contact">Jak działamy?</a></li>
