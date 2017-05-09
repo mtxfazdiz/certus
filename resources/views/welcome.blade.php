@@ -51,7 +51,10 @@
 @section('footer')
 <div class="jumbotron" id="myjumbo"><!-- start jumbo -->
 <div class="container">
-  <p class="pull-right"><a href="#">Do góry</a></p>  
+  <!-- <p class="pull-right"><a href="#">Do góry</a></p>  -->
+  <p class="pull-right"><b>+48 570 930 602</b></p> 
+  <p class="pull-right"><b>+48 732 890 752</b></p> 
+  <p class="pull-right"><a href="#">Szybka pożyczka, gotówka nawet w 15 minut!</a></p> 
   <p>&copy; 2016 Certus Pożyczki. <b>Wszelkie prawa zastrzeżone.</b>
   <h2></h2>
   <p class="just">
@@ -60,6 +63,9 @@
 
 </div>
   
+
+
+ 
 
 
 

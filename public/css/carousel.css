@@ -181,3 +181,7 @@ body {
   margin-top: 50px;
   margin-bottom: 0px;
 }
+.pull-right > b{
+  margin-right: 10px;
+  margin-left:10px;
+}
