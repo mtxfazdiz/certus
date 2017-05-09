@@ -53,12 +53,12 @@
               
             </div>
             <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav myMenu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">O firmie</a></li>
-                <li><a href="#contact">Jak działamy?</a></li>
-                <li><a href="#about">Pożyczki</a></li>
-                <li><a href="#contact">Kontakt</a></li>
+              <ul class="nav navbar-nav">
+                <li><a href="{{ url('/') }}">Home</a></li>
+                <li><a href="{{ url('/ofirmie') }}">O firmie</a></li>
+                <li><a href="{{ url('/jakdzialamy') }}">Jak działamy?</a></li>
+                <li><a href="{{ url('/pozyczki') }}">Pożyczki</a></li>
+                <li><a href="{{ url('/kontakt') }}">Kontakt</a></li>
               </ul>
             </div>
           </div>

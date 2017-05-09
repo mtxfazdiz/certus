@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/ofirmie', function () {
+    return view('ofirmie');
+});
+Route::get('/jakdzialamy', function () {
+    return view('jakdzialamy');
+});
+Route::get('/pozyczki', function () {
+    return view('pozyczki');
+});
+Route::get('/kontakt', function () {
+    return view('kontakt');
+});
