@@ -47,7 +47,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-left" href="#">
+              <a class="navbar-left" href="{{ url('/') }}">
               	<img src="pic/logo.png">
               </a>
               
@@ -60,6 +60,9 @@
                 <li><a href="{{ url('/pozyczki') }}">Pożyczki</a></li>
                 <li><a href="{{ url('/kontakt') }}">Kontakt</a></li>
               </ul>
+              <a class="navbar-right" href="{{ url('/kontakt') }}">
+                <img src="pic/gotowka_certus.png">
+              </a>
             </div>
           </div>
         </nav>
@@ -112,7 +115,23 @@
 
     <!-- FOOTER -->
     <footer>
-      @yield('footer')
+      <div class="jumbotron" id="myjumbo"><!-- start jumbo -->
+        <div class="container">
+          <!-- <p class="pull-right"><a href="#">Do góry</a></p>  -->
+          
+          <p class="pull-right"><b>+48 570 930 602</b></p> 
+          <p class="pull-right"><b>+48 732 890 752</b></p> 
+          <p class="pull-right"><a href="{{ url('/jakdzialamy') }}">Szybka pożyczka, gotówka nawet w 15 minut!</a></p> 
+          <p>&copy; 2016 Certus Pożyczki. <b>Wszelkie prawa zastrzeżone.</b>
+          <h2></h2>
+          <p class="just">
+            <span>
+              Szybka pożyczka gotówkowa, bez sprawdzania, pożyczki pod zastaw. Najlepsze pożyczki Braniewo, Bartoszyce, Kętrzyn, Gronowo, Młoteczno, Bemowizna , Frombork, Stępień, Pierzchały, Płoskinia, Chruściel, Lipowina, Milejewo, Pogrodzie, Kadyny, Suchacz, Tolkmicko, Stegna, Kąty, Rybackie, Krynica Morska, Elbląg, Pasłęk, Gronowo Górne, Górowo Iławeckie, Kamińsk, Lelkowo, Głębock, Bezledy, Pieniężno, Orneta, Zagaje, Wyszkowo, Lidzbark Warmiński, Korsze, Reszel, Bisztynek.
+            </span>
+          </p>
+
+        </div>
+      </div><!-- end jumbo -->
     </footer>
 
     <!-- Bootstrap core JavaScript

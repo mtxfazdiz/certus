@@ -12,6 +12,16 @@
 
 <div class="container text-center">
   <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="blue">
+        <a class="navbar-center" href="{{ url('/jakdzialamy') }}">
+                <img src="pic/certus_zobacz.png">
+                Sprawdź jak działamy, zobacz jakie to proste!
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
     <div class="col-md-10 col-md-offset-1"> <!-- col8 start -->
       
 
@@ -48,56 +58,9 @@
 
 
 
-@section('footer')
-<div class="jumbotron" id="myjumbo"><!-- start jumbo -->
-<div class="container">
-  <!-- <p class="pull-right"><a href="#">Do góry</a></p>  -->
-  <p class="pull-right"><b>+48 570 930 602</b></p> 
-  <p class="pull-right"><b>+48 732 890 752</b></p> 
-  <p class="pull-right"><a href="#">Szybka pożyczka, gotówka nawet w 15 minut!</a></p> 
-  <p>&copy; 2016 Certus Pożyczki. <b>Wszelkie prawa zastrzeżone.</b>
-  <h2></h2>
-  <p class="just">
-    Szybka pożyczka gotówkowa, bez sprawdzania, pożyczki pod zastaw. Najlepsze pożyczki Braniewo, Bartoszyce, Kętrzyn, Gronowo, Młoteczno, Bemowizna , Frombork, Stępień, Pierzchały, Płoskinia, Chruściel, Lipowina, Milejewo, Pogrodzie, Kadyny, Suchacz, Tolkmicko, Stegna, Kąty, Rybackie, Krynica Morska, Elbląg, Pasłęk, Gronowo Górne, Górowo Iławeckie, Kamińsk, Lelkowo, Głębock, Bezledy, Pieniężno, Orneta, Zagaje, Wyszkowo, Lidzbark Warmiński, Korsze, Reszel, Bisztynek.
-  </p>
-
-</div>
-  
-
-
- 
 
 
 
-
-
-
-</div><!-- end jumbo -->
-@endsection
-
-
-
-
-
-
-
-
-@section('footer2')  
-
-
-        <p class="pull-right"><a href="#">Do góry</a></p>
-        <p>&copy; 2016 Certus Pożyczki. Wszelkie prawa zastrzeżone.
-        <h2></h2>
-        <p>
-          Szybka pożyczka gotówkowa, bez sprawdzania, pożyczki pod zastaw. Najlepsze pożyczki Braniewo, Bartoszyce, Kętrzyn, Gronowo, Młoteczno, Bemowizna , Frombork, Stępień, Pierzchały, Płoskinia, Chruściel, Lipowina, Milejewo, Pogrodzie, Kadyny, Suchacz, Tolkmicko, Stegna, Kąty, Rybackie, Krynica Morska, Elbląg, Pasłęk, Gronowo Górne, Górowo Iławeckie, Kamińsk, Lelkowo, Głębock, Bezledy, Pieniężno, Orneta, Zagaje, Wyszkowo, Lidzbark Warmiński, Korsze, Reszel, Bisztynek.
-        </p>
-
- 
-      
-
-
-
-@endsection
 
 
 

@@ -5,8 +5,10 @@
 @endsection
 
 @section('content')
-
-    <h2>o firmie</h2>
+<center>
+	<h2>o firmie</h2>
+</center>
+    
 
 
 @endsection
