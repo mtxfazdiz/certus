@@ -60,9 +60,12 @@
                 <li><a href="{{ url('/pozyczki') }}">Pożyczki</a></li>
                 <li><a href="{{ url('/kontakt') }}">Kontakt</a></li>
               </ul>
-              <a class="navbar-right" href="{{ url('/kontakt') }}">
-                <img src="pic/gotowka_certus.png">
+              <ul class="nav navbar-nav navbar-right">
+                <a href="{{ url('/kontakt') }}">
+                  <img src="pic/gotowka_certus.png">
               </a>
+              </ul>
+              
             </div>
           </div>
         </nav>

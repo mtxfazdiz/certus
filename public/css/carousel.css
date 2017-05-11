@@ -7,6 +7,9 @@ body {
   color: #5a5a5a;
 }
 
+p{
+  color: #545454;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -146,7 +149,42 @@ body {
 
 
 
-
+@media (max-width: 1000px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}
 
 
 
@@ -162,10 +200,10 @@ body {
 .navbar-left > img {
   height: 80px;
 }
-.navbar-right > img {
-  height: 51px;
-  padding-right: 20px;
-  padding-top: 13px;
+.navbar-right > a > img {
+  height: 80px;
+  margin-right: 20px;
+  
 }
 
 .navbar-header > button{
@@ -211,4 +249,12 @@ body {
   color: #FFFFFF;
   text-decoration: none;
   font-weight: bold;
+}
+
+.title{
+  color: #0256a5;
+  font-weight: bold;
+}
+.padd25{
+  padding-bottom: 25px;
 }
