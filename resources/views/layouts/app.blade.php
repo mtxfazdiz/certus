@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>{{config('app.name')}} @yield('title')</title>
+    <title>@yield('title') {{config('app.name')}} </title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -124,7 +124,7 @@
           
           <p class="pull-right"><b>+48 570 930 602</b></p> 
           <p class="pull-right"><b>+48 732 890 752</b></p> 
-          <p class="pull-right"><a href="{{ url('/jakdzialamy') }}">Szybka pożyczka, gotówka nawet w 15 minut!</a></p> 
+          <p class="pull-right"><a href="{{ url('/jakdzialamy') }}"><b>Szybka pożyczka, gotówka nawet w 15 minut!</b></a></p> 
           <p>&copy; 2016 Certus Pożyczki. <b>Wszelkie prawa zastrzeżone.</b>
           <h2></h2>
           <p class="just">

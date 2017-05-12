@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-- HOME
+HOME &raquo;
 @endsection
 
 @section('content')

@@ -218,7 +218,9 @@ p{
 
 .just {
   text-align: center;
-  
+}
+.myJust{
+  text-align: justify;
 }
 .just > span{
   font-size: 14px;
@@ -257,4 +259,17 @@ p{
 }
 .padd25{
   padding-bottom: 25px;
+}
+.paddTitle{
+  padding-top: 50px;
+}
+
+.bor{
+  border-style: solid;
+  border-color: red;
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
 }
